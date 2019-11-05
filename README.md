@@ -1,8 +1,10 @@
 # genDA-code
 Supplementary code for my genDA thesis chapter - simulations
 
-I didn't create a proper "plotting" file - I just had a template and would change the filtering etc to create the graphic I need based on the simulation data loaded into the environment.
+Code to run simulations as well as generate plots. For each of the folders, the simulation codes need to be run first, and an `.RData` file saved, in order to run the simulations.
 
-I will create that file now - to come in the coming days (as of 5/11).
+The package `genDA` is needed, can be installed from my github `devtools::install_github("sarahromanes/genDA")`. 
 
-For now, code to run the simulations is up, for both GLLVM estimation, genDA prediction, and Appendix - boral simulation code.
+Please track an issue if something doesn't work.
+
+Like the multiDA simulations, this requires parallel computing. Can take many weeks to run the GLLVM simulations, as well as the boral simulations.
