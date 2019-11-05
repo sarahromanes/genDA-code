@@ -1,7 +1,7 @@
 # genDA-code
 Supplementary code for my genDA thesis chapter - simulations
 
-Code to run simulations as well as generate plots. For each of the folders, the simulation codes need to be run first, and an `.RData` file saved, in order to run the simulations.
+Code to run simulations as well as generate plots. For each of the folders, the simulation codes need to be run first, and an `.RData` file saved, in order to generate plots. Files aren't 100% in a nice structure - will be managed better once paper is submitted.
 
 The package `genDA` is needed, can be installed from my github `devtools::install_github("sarahromanes/genDA")`. 
 
